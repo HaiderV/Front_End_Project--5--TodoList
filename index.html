@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utils.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Todo-List</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav flex archivo-black">
+        <p>TO-DO LIST</p>
+      </div>
+    </nav>
+    <div class="main-div">
+      <div class="display flex">
+        <div class="todo-list flex">
+          <div class="add-btn flex center" id="add-card">
+            <button id="add-btn">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="full-card flex center hide">
+      <div class="card flex column center">
+        <form id="input-data">
+          <div class="card-title archivo-black flex center">
+            <textarea class="title-textarea" id="title-textarea" placeholder="Enter the task title"></textarea>
+          </div>
+          <div class="card-content roboto flex center">
+            <textarea class="content-textarea" id="content-textarea" placeholder="Enter the task Details"></textarea>
+          </div>
+          <div class="card-finish flex center">
+            <button id="but1" type="submit">Add</button>
+            <button id="but2" type="button">✕</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="full-view flex center hide">
+      <div class="card-view flex column center">
+        <div class="title-view archivo-black flex center">
+          <textarea class="title-textarea" id="view-title-text" readonly></textarea>
+        </div>
+        <div class="content-view roboto">
+            <textarea class="content-textarea" id="view-content-text" readonly></textarea>
+        </div>
+        <div class="view-btn">
+          <button class="comp-view flex center" type="button">Completed</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="flex center column footer-div roboto">
+        <p><b>Created by: </b>Haider S Vadgamwala</p>
+        <p><b>Project: </b>FrontEnd-5-TODO-LIST</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

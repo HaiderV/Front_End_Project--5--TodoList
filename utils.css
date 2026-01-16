@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.roboto-slab {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.archivo-black {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* main {
+    flex: 1;
+} */
+
+.flex {
+    display: flex;
+}
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.material-symbols-outlined {
+  display: inline-block;
+
+  font-size: 24px;
+  line-height: 1;
+  vertical-align: middle;
+
+  padding: 0;
+  margin: 0;
+
+  background: transparent; /* important */
+  border: none;
+  outline: none;
+
+  color: #ffffff;
+  background-color: #183059;
+
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.hide {
+    display: none;
+}
+
+
