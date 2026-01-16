@@ -18,5 +18,12 @@ A modern, responsive To-Do List application built with a focus on clean UI/UX an
 
 ## 📸 Screenshots
 
+<img src="Screenshot 2026-01-16 133102.png">
+
+## What I learned
+
+* **Local Storage**
+* **JavaScript Practise**
+* **DSA**
 
 
